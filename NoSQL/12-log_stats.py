@@ -21,7 +21,7 @@ if __name__ == "__main__":
         print(f"\tmethod {method}: {count}")
 
     status_check = collection.count_documents(
-        {"metod": "GET", "path": "/status"}
+        {"method": "GET", "path": "/status"}
     )
 
     print(f"{status_check} status check")
